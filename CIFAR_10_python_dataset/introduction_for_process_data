@@ -1,0 +1,18 @@
+whole file include 60000 samples 
+50000 training sample 
+10000 test sample 
+
+
+aim to divide the training sample into two parts :
+ 1: the TRAINING samle, 45000
+ 2: the VALIDATION sample , 5000
+
+at last, we will got training data, validation data and test data
+and all three parts will stored in a .pickle file  with a dictionary as follow:
+ traingin data
+ training label
+ validation data 
+ validation label
+ test data
+ test label
+
